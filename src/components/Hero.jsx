@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [ref, inView] = useInView({
@@ -33,21 +34,21 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            Intelligent FAQ Solutions
+            AI Customer Support Agents
           </h1>
           <p className="text-xl md:text-2xl mb-12 text-gray-300">
-            Transform your customer support with AI-powered FAQ management
+            Transform your customer's experience with AI-powered customer support agents
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <a
-              href="#get-started"
+            <Link
+              to="https://paltext-merchant.vercel.app/"
               className="inline-block px-8 py-4 text-lg font-medium rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform transition-all duration-200"
             >
               Get Started
-            </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

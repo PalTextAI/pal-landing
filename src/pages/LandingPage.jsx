@@ -3,8 +3,8 @@ import { useInView } from 'react-intersection-observer';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import HowItWorks from '../components/HowItWorks';
 import Pricing from '../components/Pricing';
-import Team from '../components/Team';
 import Footer from '../components/Footer';
 
 const LandingPage = () => {
@@ -13,8 +13,8 @@ const LandingPage = () => {
       <Navbar />
       <Hero />
       <Features />
+      <HowItWorks />
       <Pricing />
-      <Team />
       <Footer />
     </div>
   );

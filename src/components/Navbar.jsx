@@ -8,9 +8,9 @@ const Navbar = () => {
 
   const navItems = [
     { title: 'Home', path: 'hero' },
-    { title: 'About', path: 'features' },
+    { title: 'Features', path: 'features' },
+    { title: 'How It Works', path: 'how-it-works' },
     { title: 'Pricing', path: 'pricing' },
-    { title: 'Team', path: 'team' },
     { title: 'Docs', path: '/docs', isExternal: true },
   ];
 
@@ -109,7 +109,7 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <Link
-                  to="/dashboard"
+                  to="https://paltext-merchant.vercel.app/"
                   className="px-4 py-2 rounded-md text-sm font-medium bg-blue-600 hover:bg-blue-700 transition-colors"
                 >
                   Get Started
@@ -173,11 +173,11 @@ const Navbar = () => {
             className="mt-4"
           >
             <Link
-              to="/dashboard"
+              to="https://paltext-merchant.vercel.app/"
               className="block w-full text-center px-4 py-2 rounded-md text-sm font-medium bg-blue-600 hover:bg-blue-700 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Sign Up
+              Get Started
             </Link>
           </motion.div>
         </div>
