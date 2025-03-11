@@ -4,9 +4,9 @@ import { FaGithub, FaTwitter, FaLinkedin, FaDiscord } from 'react-icons/fa';
 const Footer = () => {
   const footerLinks = {
     Product: ['Features', 'Pricing', 'Documentation', 'API Reference'],
-    Company: ['About Us', 'Blog', 'Careers', 'Contact'],
-    Resources: ['Community', 'Help Center', 'Status', 'Terms of Service'],
-    Legal: ['Privacy Policy', 'Terms of Use', 'Cookie Policy', 'GDPR']
+    Company: ['About Us', 'Contact'],
+    Resources: [, 'Terms of Service'],
+    Legal: ['Privacy Policy', 'Terms of Use', 'Cookie Policy']
   };
 
   const socialLinks = [

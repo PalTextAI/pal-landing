@@ -10,7 +10,7 @@ const Navbar = () => {
     { title: 'Home', path: 'hero' },
     { title: 'Features', path: 'features' },
     { title: 'How It Works', path: 'how-it-works' },
-    { title: 'Pricing', path: 'pricing' },
+    { title: 'Advantages', path: 'advantages' },
     { title: 'Docs', path: '/docs', isExternal: true },
   ];
 
