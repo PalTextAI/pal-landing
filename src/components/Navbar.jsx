@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -74,7 +75,7 @@ const Navbar = () => {
               onClick={() => scrollToSection('hero')}
               className="text-2xl font-bold"
             >
-              PalTextAI
+              <img src={logo} alt="PalTextAI" className="h-8 w-auto" />
             </button>
           </motion.div>
           

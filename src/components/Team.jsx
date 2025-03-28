@@ -9,9 +9,9 @@ const team = [
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
     bio: "AI enthusiast with 5+ years in Software Engineering",
     social: {
-      twitter: "#",
-      linkedin: "#",
-      github: "#"
+      twitter: "https://x.com/bassy_goodluck",
+      linkedin: "#https://www.linkedin.com/in/goodluckbassey/",
+      github: "https://github.com/Chrisszy123"
     }
   },
   {
