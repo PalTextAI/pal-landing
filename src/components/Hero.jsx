@@ -44,10 +44,10 @@ const Hero = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              to="https://paltext-merchant.vercel.app/"
+              to="https://calendly.com/bassygoodluck/15min"
               className="inline-block px-8 py-4 text-lg font-medium rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform transition-all duration-200"
             >
-              Get Started
+              Book a 20-min call to explore integration.
             </Link>
           </motion.div>
         </motion.div>

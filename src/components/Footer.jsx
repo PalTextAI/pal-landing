@@ -10,10 +10,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: FaTwitter, href: '#' },
-    { icon: FaGithub, href: '#' },
-    { icon: FaLinkedin, href: '#' },
-    { icon: FaDiscord, href: '#' }
+    { icon: FaTwitter, href: 'https://x.com/paltextai?s=21' },
+    { icon: FaGithub, href: 'https://github.com/paltextai' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/company/paltextai' },
+    // { icon: FaDiscord, href: 'https://discord.gg/paltextai' }
   ];
 
   return (

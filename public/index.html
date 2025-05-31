@@ -18,11 +18,57 @@
     <div id="root"></div>
 
     <div id="paltext-embed"></div>
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
     <script src="https://unpkg.com/paltext-embed@latest/dist/paltext-embed.js"></script>
     <script>
-    !function(){var a=function(a){return a.split("").map(function(a){return a.charCodeAt(0).toString(16)}).join("")},b=function(a){return a.match(/.{1,2}/g).map(function(a){return String.fromCharCode(parseInt(a,16))}).join("")},c="736b5f64353031646433626561616531613" + "73833393034303564633531663532613761",d=b(c);window.addEventListener("load",function(){if(window.PalTextEmbed&&window.PalTextEmbed.default)window.PalTextEmbed.default.init({apiKey:d,apiUrl:"https://paltext-api.onrender.com",webSocketUrl:"wss://paltext-api.onrender.com",businessId:"demo-business",enableWebsocket:!0,debug:!0,chatWindow:{title:"PalText",theme:"light",position:"bottom-right",initialOpen:!1,primaryColor:"#0084ff"}});else console.error("PalTextEmbed failed to load properly")})}();
+      !(function () {
+        var a = function (a) {
+            return a
+              .split("")
+              .map(function (a) {
+                return a.charCodeAt(0).toString(16);
+              })
+              .join("");
+          },
+          b = function (a) {
+            return a
+              .match(/.{1,2}/g)
+              .map(function (a) {
+                return String.fromCharCode(parseInt(a, 16));
+              })
+              .join("");
+          },
+          c =
+            "736b5f64353031646433626561616531613" +
+            "73833393034303564633531663532613761",
+          d = b(c);
+        window.addEventListener("load", function () {
+          if (window.PalTextEmbed && window.PalTextEmbed.default)
+            window.PalTextEmbed.default.init({
+              apiKey: d,
+              apiUrl: "https://paltext-api.onrender.com",
+              webSocketUrl: "wss://paltext-api.onrender.com",
+              businessId: "demo-business",
+              enableWebsocket: !0,
+              debug: !0,
+              chatWindow: {
+                title: "PalText",
+                theme: "light",
+                position: "bottom-right",
+                initialOpen: !1,
+                primaryColor: "#0084ff",
+              },
+            });
+          else console.error("PalTextEmbed failed to load properly");
+        });
+      })();
     </script>
   </body>
-</html> 
+</html>

@@ -110,10 +110,10 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <Link
-                  to="https://paltext-merchant.vercel.app/"
+                  to="https://calendly.com/bassygoodluck/15min"
                   className="px-4 py-2 rounded-md text-sm font-medium bg-blue-600 hover:bg-blue-700 transition-colors"
                 >
-                  Get Started
+                  Schedule a Demo
                 </Link>
               </motion.div>
             </div>
